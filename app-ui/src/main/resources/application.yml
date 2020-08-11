@@ -1,0 +1,28 @@
+server:
+  servlet:
+    session:
+      cookie:
+        name: USESSION
+  port: 9010
+
+#sso:
+#  check:
+#    url: http://localhost:9010/sso/check
+#    
+#spring:
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          custom:
+#            client-id: ssoClient-1
+#            client-secret: ssoClientSecret-1
+#            scope: read,write
+#            authorization-grant-type: authorization_code
+#            redirect-uri: http://localhost:8082/
+#        provider:
+#          custom:
+#            authorization-uri: http://localhost:9001/sso/auth
+#            token-uri: http://localhost:9001/sso/token
+#            user-info-uri: http://localhost:9001/sso/userinfo
+#            user-name-attribute: preferred_username
